@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Counter Simulation",
+            "type": "shell",
+            "command": "C:/Users/NAVADEEP/.local/bin/python3.14.exe",
+            "args": [
+                "${workspaceFolder}/simulate.py"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate Architecture Diagram",
+            "type": "shell",
+            "command": "C:/Users/NAVADEEP/.local/bin/python3.14.exe",
+            "args": [
+                "${workspaceFolder}/generate_diagram.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate Waveform Diagram",
+            "type": "shell",
+            "command": "C:/Users/NAVADEEP/.local/bin/python3.14.exe",
+            "args": [
+                "${workspaceFolder}/generate_waveform.py"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new",
+                "focus": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}

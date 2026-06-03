@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Verilog Counter Simulation (Python)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/simulate.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Generate Architecture Diagram",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generate_diagram.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Generate Waveform Diagram",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/generate_waveform.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
